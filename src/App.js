@@ -13,10 +13,10 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' exact element={<Home/>} />
-        <Route path='/notes' element={<Notes/>} />
-        <Route path='/timer' element={<Timer/>} />
-        <Route path='/videos' element={<Videos/>} />
+        <Route path='the-ring/' exact element={<Home/>} />
+        <Route path='the-ring/notes' element={<Notes/>} />
+        <Route path='the-ring/timer' element={<Timer/>} />
+        <Route path='the-ring/videos' element={<Videos/>} />
       </Routes>
     </Router>
   );
