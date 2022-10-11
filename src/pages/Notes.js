@@ -13,7 +13,7 @@ function Notes() {
       </div>
 
       <div className="Note">
-        Stance/Body <br/>
+        <div className='title'>Stance/Body</div>
         <ul>
           <li>Weight
             <ul>
@@ -56,7 +56,7 @@ function Notes() {
       </div>
 
       <div className="Note">
-        Movement <br/>
+        <div className='title'>Movement</div>
         <ul>
           <li>Move! Never stand still unless you're not punching or moving your head.</li>
           <li>Your hands, head or feet MUST always be moving. If not it better be between rounds!</li>
@@ -72,7 +72,7 @@ function Notes() {
       </div>
 
       <div className="Note">
-        Offense
+        <div className='title'>Offense</div>
         <ul>
           <li>General Offense
             <ul>
@@ -116,7 +116,7 @@ function Notes() {
       </div>
 
       <div className="Note">
-        Defense <br/>
+        <div className='title'>Defense</div>
         <ul>
           <li>ALWAYS keep your eyes on your opponent.</li>
           <li>Find a spot in the middle of their chest or right below their neck to look at.</li>

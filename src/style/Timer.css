@@ -13,34 +13,6 @@
     font-size: 300px;
 }
   
-/* BASIC STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.top-banner{
-    /* background-color: #729FED; */
-    /* background-color: #708FC7; */
-    background-color: #8BA0C6;
-    display: flex;
-    font-family: sans-serif;
-    flex-direction: column;
-    align-items: center;
-    padding: 5px 0;
-    border-radius: 20px;
-}
-  
-.heading{
-    font-weight: bold;
-    font-size: 2rem;
-    text-align: center;
-}
-  
-li {
-    list-style-type: none;
-}
-  
-button {
-    border-radius: 20px;
-}
-  
 /* SLIDERS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
   
