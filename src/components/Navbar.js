@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <nav className="navigation-bar">
-      <a href="/" className="navigation-landing">
+      <a href="/the-ring" className="navigation-landing">
         The Ring
       </a>
       <button
