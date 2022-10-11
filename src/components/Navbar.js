@@ -3,6 +3,7 @@ import "../style/Navbar.css"
 
 export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
+  const toggle = () => setIsNavExpanded(!isNavExpanded);
 
   return (
     <nav className="navigation-bar">
@@ -35,13 +36,13 @@ export default function Navbar() {
       >
         <ul>
           <li>
-            <a href="#/notes">Notes</a>
+            <a onClick={toggle} href="#/notes">Notes</a>
           </li>
           <li>
-            <a href="#/videos">Videos</a>
+            <a onClick={toggle} href="#/videos">Videos</a>
           </li>
           <li>
-            <a href="#/timer">Timer</a>
+            <a onClick={toggle} href="#/timer">Timer</a>
           </li>
         </ul>
       </div>

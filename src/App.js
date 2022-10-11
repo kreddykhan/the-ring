@@ -24,16 +24,3 @@ function App() {
   
 
 export default App;
-
-{/* <HashRouter>
-    <Route
-      exact
-      path='/'
-      component={LandingPage}
-    />
-    <Route
-      exact
-      path='/posts'
-      component={Posts}
-    />
-  </HashRouter> */}
