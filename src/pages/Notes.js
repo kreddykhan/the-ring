@@ -4,7 +4,7 @@ function Notes() {
   return (
     <div className="App">      
       <div className="Note">
-        Relax <br/>
+        <div className='title'>Relax</div>
         <ul>
           <li>Relax at all times, but especially when punching.</li>
           <li>Breath out with every punch.</li>
