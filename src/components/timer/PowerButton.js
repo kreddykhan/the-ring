@@ -43,12 +43,12 @@ const PowerButton = params => {
         <div class="control-flex-box">
             POWER
             <div class="slider-flex-box">
-                ON&nbsp;
+                OFF&nbsp;
                 <label class="switch">
                 <input onChange={handleClick} checked={checked} type="checkbox"></input>
                     <span class="slider round"></span>
                 </label>
-                &nbsp;OFF
+                &nbsp;ON
             </div>
         </div>
     );
