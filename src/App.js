@@ -10,18 +10,30 @@ import Videos from './pages/Videos';
 
 function App() {
   return (
-    <Router>
+    <>
       <Navbar />
       <Routes>
-        <Route path='the-ring/' exact element={<Home/>} />
-        <Route path='the-ring/notes' element={<Notes/>} />
-        <Route path='the-ring/timer' element={<Timer/>} />
-        <Route path='the-ring/videos' element={<Videos/>} />
+        <Route path='/' exact element={<Home/>} />
+        <Route path='/notes' element={<Notes/>} />
+        <Route path='/timer' element={<Timer/>} />
+        <Route path='/videos' element={<Videos/>} />
       </Routes>
-    </Router>
+    </>
   );
 }
   
 
 export default App;
 
+{/* <HashRouter>
+    <Route
+      exact
+      path='/'
+      component={LandingPage}
+    />
+    <Route
+      exact
+      path='/posts'
+      component={Posts}
+    />
+  </HashRouter> */}
