@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import NoSleep from 'nosleep.js';
 
 const PowerButton = params => {
 
     const [checked, setChecked] = useState(false)
 
     const[width, setWidth] = useState(window.innerWidth);
+
+    var noSleep = new NoSleep();
     
     React.useEffect(() => {
         function handleResize() {
@@ -19,6 +22,7 @@ const PowerButton = params => {
     {
         if(checked == true)
         {
+            noSleep.disable();
             params.setPowerOn(false);
 
             if(width > 700)
@@ -34,6 +38,7 @@ const PowerButton = params => {
         }
         else
         {
+            noSleep.enable();
             params.setPowerOn(true);
         }
         setChecked(!checked)
