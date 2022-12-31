@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/the-ring/static/css/main.fc0f61a5.css",
-    "main.js": "/the-ring/static/js/main.d6109450.js",
+    "main.css": "/the-ring/static/css/main.65e42610.css",
+    "main.js": "/the-ring/static/js/main.b74bad6b.js",
     "static/js/845.305bceeb.chunk.js": "/the-ring/static/js/845.305bceeb.chunk.js",
     "static/js/787.91b4644c.chunk.js": "/the-ring/static/js/787.91b4644c.chunk.js",
     "static/media/LongBell.m4a": "/the-ring/static/media/LongBell.c5e0d34260a98155669f.m4a",
     "static/media/ShortBell.m4a": "/the-ring/static/media/ShortBell.f6bc33755aa6becb00a6.m4a",
     "index.html": "/the-ring/index.html",
-    "main.fc0f61a5.css.map": "/the-ring/static/css/main.fc0f61a5.css.map",
-    "main.d6109450.js.map": "/the-ring/static/js/main.d6109450.js.map",
+    "main.65e42610.css.map": "/the-ring/static/css/main.65e42610.css.map",
+    "main.b74bad6b.js.map": "/the-ring/static/js/main.b74bad6b.js.map",
     "845.305bceeb.chunk.js.map": "/the-ring/static/js/845.305bceeb.chunk.js.map",
     "787.91b4644c.chunk.js.map": "/the-ring/static/js/787.91b4644c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc0f61a5.css",
-    "static/js/main.d6109450.js"
+    "static/css/main.65e42610.css",
+    "static/js/main.b74bad6b.js"
   ]
 }
