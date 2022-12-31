@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Notes from './pages/Notes';
@@ -18,6 +19,7 @@ function App() {
         <Route path='/timer' element={<Timer/>} />
         <Route path='/videos' element={<Videos/>} />
       </Routes>
+      <Footer />
     </>
   );
 }
