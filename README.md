@@ -10,6 +10,9 @@ The website also hosts all of my boxing coach Martin O'Malley's suggested notes 
 
 The website is hosted here: https://kreddykhan.github.io/the-ring/
 
+<img width="1276" alt="Screen Shot 2023-01-01 at 6 52 22 PM" src="https://user-images.githubusercontent.com/16426707/210192097-90bd8470-6625-4cfd-8ada-e027c2ed81c6.png">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
