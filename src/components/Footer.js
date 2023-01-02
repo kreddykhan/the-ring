@@ -12,8 +12,8 @@ export default function Footer() {
     <>
         <div className="footer">
             Karishma Reddy Khan<br />
-            <a href="https://github.com/kreddykhan/the-ring" target="_blank"> <FaGithub /></a> github.com/kreddykhan<br />
-            <a href="https://twitter.com/kreddykhan" target="_blank"> <FaTwitter /></a> twitter.com/kreddykhan<br />
+            <a href="https://github.com/kreddykhan/the-ring" target="_blank"> <FaGithub /> github.com/kreddykhan</a><br />
+            <a href="https://twitter.com/kreddykhan" target="_blank"> <FaTwitter /> twitter.com/kreddykhan</a><br />
         </div> 
     </>
   );
