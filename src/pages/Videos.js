@@ -29,6 +29,22 @@ export default function Videos() {
         <div className="title">Floyd Mayweather: Master of Adjustments</div>
         <YoutubeEmbed embedId="2LedObTlp_o" />
       </div>
+      <div className="Videos">
+        <div className="title">Ricardo Lopez's Perfect Boxing Explained</div>
+        <YoutubeEmbed embedId="mcxfPIErv24" />
+      </div>
+      <div className="Videos">
+        <div className="title">Advanced Way to Set Traps and Counters</div>
+        <YoutubeEmbed embedId="4pEZbGuwr" />
+      </div>
+      <div className="Videos">
+        <div className="title">Easy Defensive Footwork Trick Nobody Showed You</div>
+        <YoutubeEmbed embedId="CJKQYAtsmy4" />
+      </div>
+      <div className="Videos">
+        <div className="title">3 Advanced Elbow Blocks in Boxing</div>
+        <YoutubeEmbed embedId="fpy9uogrMm0" />
+      </div>
     </div>
   );
 }
