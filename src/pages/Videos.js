@@ -35,7 +35,7 @@ export default function Videos() {
       </div>
       <div className="Videos">
         <div className="title">Advanced Way to Set Traps and Counters</div>
-        <YoutubeEmbed embedId="4pEZbGuwr" />
+        <YoutubeEmbed embedId="4pEZbGuwr-Y" />
       </div>
       <div className="Videos">
         <div className="title">Easy Defensive Footwork Trick Nobody Showed You</div>
