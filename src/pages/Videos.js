@@ -22,10 +22,6 @@ export default function Videos() {
         <YoutubeEmbed embedId="9i7jMCr9GTM" />
       </div>
       <div className="Videos">
-        <div className="title">Ray Jones Jr: Superman</div>
-        <YoutubeEmbed embedId="eJ2nc9fDsQ4" />
-      </div>
-      <div className="Videos">
         <div className="title">Floyd Mayweather: Master of Adjustments</div>
         <YoutubeEmbed embedId="2LedObTlp_o" />
       </div>
